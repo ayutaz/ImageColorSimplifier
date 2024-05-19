@@ -42,7 +42,6 @@ DBSCANクラスタリングは、以下のコマンドで実行できます：
 
 ```sh
 python DBSCAN-clustering.py --image_path <画像のパス> --eps <eps値> --min_samples <最小サンプル数> --scale_factor <縮小率>
-
 ```
 例：
 ```sh

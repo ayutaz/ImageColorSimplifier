@@ -67,7 +67,7 @@ if __name__ == "__main__":
     parser.add_argument('--image_path', type=str, default='test.png', help='Path to the input image')
     parser.add_argument('--eps', type=float, default=10.0, help='The maximum distance between two samples for one to be considered as in the neighborhood of the other.')
     parser.add_argument('--min_samples', type=int, default=10, help='The number of samples (or total weight) in a neighborhood for a point to be considered as a core point.')
-    parser.add_argument('--scale_factor', type=float, default=0.1, help='Factor to scale the image down by.')
+    parser.add_argument('--scale_factor', type=float, default=0.5, help='Factor to scale the image down by.')
 
     args = parser.parse_args()
 
